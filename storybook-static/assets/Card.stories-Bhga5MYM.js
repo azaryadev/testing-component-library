@@ -1,0 +1,44 @@
+import{j as e}from"./jsx-runtime-Nms4Y4qS.js";import{r as U}from"./index-BwDkhjyp.js";import{c as l}from"./index-Bl6ORisp.js";import{u as V}from"./ConfigProvider-Ca69TdRo.js";import{T as X,D as Y,C as Z,b as $,d as ee}from"./index-DNZbnWyw.js";import"./index-0dGa3Vry.js";import{C as H}from"./index-Be5L-PMf.js";import{B as m}from"./Button-CzzEZ6EI.js";import"./_commonjsHelpers-BosuxZz1.js";import"./iframe-DMw3RXmm.js";import"../sb-preview/runtime.js";import"./index-B8XB3FuZ.js";import"./index-D-8MO0q_.js";import"./index-C5NKtLi9.js";import"./index-DrFu-skq.js";import"./index-4AAnzh4D.js";import"./iconBase-BH6j_gzt.js";import"./classNames-DsmVytTu.js";import"./context-Dt9AzXGa.js";const re={bordered:!0},ae={bordered:!0},d=U.forwardRef((p,D)=>{var f;const{ui:u}=V(),{bodyClass:M,children:F,className:_,clickable:L=!1,bordered:P=((f=u==null?void 0:u.card)==null?void 0:f.cardBordered)??!0,header:W={},footer:z={},onClick:b,...B}=p,r={...re,...W},c={...ae,...z},I=l("card",_,P?"card-border":"card-shadow",L&&"cursor-pointer user-select-none"),O=l("card-body",M),A=l("card-header",r.bordered&&"card-header-border",r.extra&&"card-header-extra",r.className),G=l("card-footer",c.bordered&&"card-footer-border",c.className),J=()=>typeof r.content=="string"?e.jsx("h4",{children:r.content}):e.jsx(e.Fragment,{children:r.content}),K=Q=>{b==null||b(Q)};return e.jsxs("div",{ref:D,className:I,role:"presentation",onClick:K,...B,children:[r.content&&e.jsxs("div",{className:A,children:[J(),r.extra&&e.jsx("span",{children:r.extra})]}),e.jsx("div",{className:O,children:F}),c.content&&e.jsx("div",{className:G,children:c.content})]})});d.displayName="Card";d.__docgenInfo={description:"",methods:[],displayName:"Card",props:{id:{required:!1,tsType:{name:"string"},description:""},className:{required:!1,tsType:{name:"string"},description:""},children:{required:!1,tsType:{name:"ReactNode"},description:""},style:{required:!1,tsType:{name:"CSSProperties"},description:""},clickable:{required:!1,tsType:{name:"boolean"},description:""},header:{required:!1,tsType:{name:"signature",type:"object",raw:`{
+  content?: string | ReactNode;
+  className?: string;
+  bordered?: boolean;
+  extra?: string | ReactNode;
+}`,signature:{properties:[{key:"content",value:{name:"union",raw:"string | ReactNode",elements:[{name:"string"},{name:"ReactNode"}],required:!1}},{key:"className",value:{name:"string",required:!1}},{key:"bordered",value:{name:"boolean",required:!1}},{key:"extra",value:{name:"union",raw:"string | ReactNode",elements:[{name:"string"},{name:"ReactNode"}],required:!1}}]}},description:""},bodyClass:{required:!1,tsType:{name:"string"},description:""},footer:{required:!1,tsType:{name:"signature",type:"object",raw:`{
+  content?: string | ReactNode;
+  className?: string;
+  bordered?: boolean;
+}`,signature:{properties:[{key:"content",value:{name:"union",raw:"string | ReactNode",elements:[{name:"string"},{name:"ReactNode"}],required:!1}},{key:"className",value:{name:"string",required:!1}},{key:"bordered",value:{name:"boolean",required:!1}}]}},description:""},bordered:{required:!1,tsType:{name:"boolean"},description:""},onClick:{required:!1,tsType:{name:"signature",type:"function",raw:"(e: MouseEvent<HTMLDivElement>) => void",signature:{arguments:[{type:{name:"MouseEvent",elements:[{name:"HTMLDivElement"}],raw:"MouseEvent<HTMLDivElement>"},name:"e"}],return:{name:"void"}}},description:""}},composes:["Omit"]};d.__docgenInfo={description:"",methods:[],displayName:"Card",props:{id:{required:!1,tsType:{name:"string"},description:""},className:{required:!1,tsType:{name:"string"},description:""},children:{required:!1,tsType:{name:"ReactNode"},description:""},style:{required:!1,tsType:{name:"CSSProperties"},description:""},clickable:{required:!1,tsType:{name:"boolean"},description:""},header:{required:!1,tsType:{name:"signature",type:"object",raw:`{
+  content?: string | ReactNode;
+  className?: string;
+  bordered?: boolean;
+  extra?: string | ReactNode;
+}`,signature:{properties:[{key:"content",value:{name:"union",raw:"string | ReactNode",elements:[{name:"string"},{name:"ReactNode"}],required:!1}},{key:"className",value:{name:"string",required:!1}},{key:"bordered",value:{name:"boolean",required:!1}},{key:"extra",value:{name:"union",raw:"string | ReactNode",elements:[{name:"string"},{name:"ReactNode"}],required:!1}}]}},description:""},bodyClass:{required:!1,tsType:{name:"string"},description:""},footer:{required:!1,tsType:{name:"signature",type:"object",raw:`{
+  content?: string | ReactNode;
+  className?: string;
+  bordered?: boolean;
+}`,signature:{properties:[{key:"content",value:{name:"union",raw:"string | ReactNode",elements:[{name:"string"},{name:"ReactNode"}],required:!1}},{key:"className",value:{name:"string",required:!1}},{key:"bordered",value:{name:"boolean",required:!1}}]}},description:""},bordered:{required:!1,tsType:{name:"boolean"},description:""},onClick:{required:!1,tsType:{name:"signature",type:"function",raw:"(e: MouseEvent<HTMLDivElement>) => void",signature:{arguments:[{type:{name:"MouseEvent",elements:[{name:"HTMLDivElement"}],raw:"MouseEvent<HTMLDivElement>"},name:"e"}],return:{name:"void"}}},description:""}},composes:["Omit"]};const ke={title:"Components/Card",component:d,argTypes:{clickable:{control:"boolean"},bordered:{control:"boolean"},onClick:{action:"clicked"},header:{control:"object",description:"Defines header content, class, and bordered option."},footer:{control:"object",description:"Defines footer content, class, and bordered option."}},tags:["autodocs"],parameters:{docs:{page:()=>e.jsxs(e.Fragment,{children:[e.jsx(X,{}),e.jsx(Y,{children:"The Card component provides a flexible, customizable container for displaying grouped content with optional header and footer sections. It can include borders, be clickable, and supports additional content in the header."}),e.jsx(Z,{}),e.jsx($,{}),e.jsx(ee,{})]})}}},i=p=>e.jsx(d,{...p,children:e.jsx("p",{children:"Some quick example text to build on the card title and make up the bulk of the card's content."})}),a=i.bind({});a.args={bordered:!0};const t=i.bind({});t.args={clickable:!0,bordered:!0};const s=i.bind({});s.args={bordered:!0,header:{content:"Card Header",extra:e.jsx(H,{}),bordered:!0}};const n=i.bind({});n.args={bordered:!0,footer:{content:e.jsx(e.Fragment,{children:e.jsxs("div",{className:"flex gap-4",children:[e.jsx(m,{size:"sm",className:"ltr:mr-2 rtl:ml-2",children:"Save"}),e.jsx(m,{size:"sm",variant:"solid",children:"New Post"})]})}),bordered:!0}};const o=i.bind({});o.args={bordered:!0,header:{content:"Card Header",extra:e.jsx(H,{}),bordered:!1},footer:{content:e.jsx(e.Fragment,{children:e.jsxs("div",{className:"flex justify-end gap-4",children:[e.jsx(m,{size:"sm",className:"ltr:mr-2 rtl:ml-2",children:"Save"}),e.jsx(m,{size:"sm",variant:"solid",children:"New Post"})]})}),bordered:!1}};var g,h,y;a.parameters={...a.parameters,docs:{...(g=a.parameters)==null?void 0:g.docs,source:{originalSource:`args => <Card {...args}>\r
+    <p>\r
+      Some quick example text to build on the card title and make up the bulk of\r
+      the card&apos;s content.\r
+    </p>\r
+  </Card>`,...(y=(h=a.parameters)==null?void 0:h.docs)==null?void 0:y.source}}};var x,N,C;t.parameters={...t.parameters,docs:{...(x=t.parameters)==null?void 0:x.docs,source:{originalSource:`args => <Card {...args}>\r
+    <p>\r
+      Some quick example text to build on the card title and make up the bulk of\r
+      the card&apos;s content.\r
+    </p>\r
+  </Card>`,...(C=(N=t.parameters)==null?void 0:N.docs)==null?void 0:C.source}}};var k,v,q;s.parameters={...s.parameters,docs:{...(k=s.parameters)==null?void 0:k.docs,source:{originalSource:`args => <Card {...args}>\r
+    <p>\r
+      Some quick example text to build on the card title and make up the bulk of\r
+      the card&apos;s content.\r
+    </p>\r
+  </Card>`,...(q=(v=s.parameters)==null?void 0:v.docs)==null?void 0:q.source}}};var j,T,R;n.parameters={...n.parameters,docs:{...(j=n.parameters)==null?void 0:j.docs,source:{originalSource:`args => <Card {...args}>\r
+    <p>\r
+      Some quick example text to build on the card title and make up the bulk of\r
+      the card&apos;s content.\r
+    </p>\r
+  </Card>`,...(R=(T=n.parameters)==null?void 0:T.docs)==null?void 0:R.source}}};var w,S,E;o.parameters={...o.parameters,docs:{...(w=o.parameters)==null?void 0:w.docs,source:{originalSource:`args => <Card {...args}>\r
+    <p>\r
+      Some quick example text to build on the card title and make up the bulk of\r
+      the card&apos;s content.\r
+    </p>\r
+  </Card>`,...(E=(S=o.parameters)==null?void 0:S.docs)==null?void 0:E.source}}};const ve=["Default","ClickableCard","WithHeader","WithFooter","WithHeaderAndFooter"];export{t as ClickableCard,a as Default,n as WithFooter,s as WithHeader,o as WithHeaderAndFooter,ve as __namedExportsOrder,ke as default};
